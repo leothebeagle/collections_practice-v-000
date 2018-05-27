@@ -19,7 +19,7 @@ def swap_elements(array)
   y = array[2]
   swapped_array = []
   swapped_array << array[0]
-  swapped_array << y 
-  swapped_array << x 
+  swapped_array << y
+  swapped_array << x
   swapped_array
 end
