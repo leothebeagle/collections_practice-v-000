@@ -7,9 +7,9 @@ def sort_array_desc(array)
     if b == a
       0
     elsif b > a
-      -1
-    elsif b < a
       1
+    elsif b < a
+      -1
     end
   end
 end
