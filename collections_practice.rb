@@ -34,5 +34,15 @@ def swap_elements_from_to(array, index, destination_index) #this method likely n
 end
 
 def reverse_array(array)
-  array.reverse
+  array.reverse 
+end
+
+def kesha_maker(array)
+  kesha_mod = []
+  array.each do |string|
+    string_array = string.split
+    string_array[2] = $
+    kesha_mod << string_array.join
+  end
+  kesha_mod
 end
