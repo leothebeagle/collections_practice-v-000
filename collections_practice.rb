@@ -34,6 +34,5 @@ def swap_elements_from_to(array, index, destination_index) #this method likely n
 end
 
 def reverse_array(array)
-  array.reverse 
+  array.reverse
 end
-
