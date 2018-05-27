@@ -29,10 +29,9 @@ end
 def swap_elements_from_to(array, index, destination_index)
   x = array[index]
   y = array[destination_index]
-  swapped_array = []
-  swapped_array << array[0]
-  swapped_array << y
-  swapped_array << x
-  swapped_array
+
+  array[index] = y 
+  array[destination_index] = x 
+  array
 end
 binding.pry
