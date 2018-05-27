@@ -19,8 +19,8 @@ end
 def swap_elements(array) #this method needs to be further abstracted
   x = array[1]
   y = array[2]
-  array[1] = y 
-  array[2] = x 
+  array[1] = y
+  array[2] = x
   array
 end
 
@@ -32,4 +32,4 @@ def swap_elements_from_to(array, index, destination_index)
   array[destination_index] = x
   array
 end
-binding.pry
+
