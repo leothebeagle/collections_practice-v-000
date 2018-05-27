@@ -30,8 +30,8 @@ def swap_elements_from_to(array, index, destination_index)
   x = array[index]
   y = array[destination_index]
 
-  array[index] = y 
-  array[destination_index] = x 
+  array[index] = y
+  array[destination_index] = x
   array
 end
 binding.pry
