@@ -40,7 +40,7 @@ end
 def kesha_maker(array)
   kesha_mod = []
   array.each do |string|
-    string_array = string.split
+    string_array = string.split(//)
     string_array[2] = '$'
     kesha_mod << string_array.join
   end
