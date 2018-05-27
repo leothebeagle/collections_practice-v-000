@@ -18,5 +18,5 @@ def swap_elements(array)
   x = array[1]
   y = array[2]
   swapped_array = []
-  swapped_array << array[0], y, x 
+  swapped_array << array[0], y, x
 end
