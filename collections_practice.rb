@@ -19,11 +19,9 @@ end
 def swap_elements(array) #this method needs to be further abstracted
   x = array[1]
   y = array[2]
-  swapped_array = []
-  swapped_array << array[0]
-  swapped_array << y
-  swapped_array << x
-  swapped_array
+  array[1] = y 
+  array[2] = x 
+  array
 end
 
 def swap_elements_from_to(array, index, destination_index)
